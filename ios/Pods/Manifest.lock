@@ -1,16 +1,19 @@
 PODS:
+  - Alamofire (5.9.1)
   - Capacitor (5.7.8):
     - CapacitorCordova
   - CapacitorCordova (5.7.8)
   - naveridlogin-sdk-ios (4.2.3)
 
 DEPENDENCIES:
+  - Alamofire
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
   - naveridlogin-sdk-ios
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - naveridlogin-sdk-ios
 
 EXTERNAL SOURCES:
@@ -20,10 +23,11 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   Capacitor: 747aadb4fa786f460d8cd9d0557cb81440a13747
   CapacitorCordova: 31ab98dca2ddcee051027a1afe7e8c85c82f7297
   naveridlogin-sdk-ios: d9d46d02119d303023d7000cd5963864d5bb89e5
 
-PODFILE CHECKSUM: e0c881d99184dd728d94f28843644517bbeaa6d5
+PODFILE CHECKSUM: f6ac2dc3038b23c6f5d2243dd9d1bd0df17f68da
 
 COCOAPODS: 1.15.2
