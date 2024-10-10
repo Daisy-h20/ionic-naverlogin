@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface naverLoginPlugin {\n  naverLogin(options: {\n    serviceUrlScheme: string;\n    naverClientId: string;\n    naverClientSecret: string;\n    naverClientName: string;\n  }): Promise<{ email: string }>;\n}\n"]}

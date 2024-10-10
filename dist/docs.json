@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "naverLoginPlugin",
+    "slug": "naverloginplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "naverLogin",
+        "signature": "(options: { serviceUrlScheme: string; naverClientId: string; naverClientSecret: string; naverClientName: string; }) => Promise<{ email: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ serviceUrlScheme: string; naverClientId: string; naverClientSecret: string; naverClientName: string; }"
+          }
+        ],
+        "returns": "Promise<{ email: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "naverlogin"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
